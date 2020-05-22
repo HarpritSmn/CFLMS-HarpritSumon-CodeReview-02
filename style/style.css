@@ -1,3 +1,34 @@
+body {
+  margin: 0; }
 
+ul {
+  margin: 0; }
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #631B1D;
+  justify-content: space-between; }
+
+.left {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 55px; }
+
+.right {
+  margin: 10px; }
+
+.navbar {
+  overflow: hidden;
+  background-color: black; }
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; }
 
 /*# sourceMappingURL=style.css.map */
