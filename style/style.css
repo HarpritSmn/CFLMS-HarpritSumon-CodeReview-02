@@ -1,137 +1,68 @@
-body {
-  margin: 0; }
+/*
+Error: Invalid CSS after "and ": expected selector, was "(min-device-wid..."
+        on line 176 of C:\Users\harpr\OneDrive\Desktop\CodeFactory\CodeReview\CFLMS-HarpritSumon-CodeReview-02\style\style.sass
 
-ul {
-  margin: 0; }
+171: 
+172: //hier beginnt media querie
+173: 
+174: 
+175: @media screen 
+176: 	and (min-device-width: 1200px)
+177: 	and (max-device-width: 1600px)
+178: 	and (-webkit-min-device-pixel-ratio: 1){
+179: 	
+180: }
 
-p {
-  margin: 0; }
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #631B1D; }
-
-.left {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 55px;
-  width: 240px; }
-
-.right {
-  margin: 20px;
-  height: 60px;
-  width: 600px; }
-
-.navbar {
-  overflow: hidden;
-  background-color: black; }
-
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px; }
-
-.over {
-  margin: 0;
-  display: flex; }
-
-.main {
-  width: 90vw;
-  height: 100vh;
-  margin-left: 5%;
-  background-color: lightgray; }
-
-h3 {
-  margin: 0;
-  display: flex;
-  justify-content: flex-end; }
-
-h1 {
-  margin-top: 0;
-  background-color: #DDDDDD;
-  color: black; }
-
-.one {
-  width: 90%;
-  margin-left: 5%; }
-
-.three {
-  width: 100px;
-  height: auto;
-  display: flex;
-  margin-left: auto; }
-
-.two {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 2; }
-
-.container {
-  width: 350px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-align: center; }
-
-.bild {
-  width: 350px;
-  height: auto;
-  object-fit: cover; }
-
-.zwischen {
-  display: flex;
-  flex-direction: column; }
-
-.popular {
-  width: 100%; }
-
-.teilOben {
-  width: 90%;
-  height: auto;
-  margin-left: 5%;
-  display: flex;
-  flex-direction: column; }
-
-.mitBanner {
-  display: flex;
-  flex-wrap: wrap; }
-
-.divider {
-  width: 100%; }
-
-.divider > img {
-  width: 85%;
-  height: 10vh;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 7.5%; }
-
-.teilen {
-  width: 90%;
-  height: 100vh;
-  margin-left: 5%;
-  display: flex;
-  flex-wrap: wrap; }
-
-.pic-bottom {
-  width: 25%;
-  height: auto; }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex: 2; }
-
-.cf-banner {
-  display: flex;
-  align-self: end; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\harpr\OneDrive\Desktop\CodeFactory\CodeReview\CFLMS-HarpritSumon-CodeReview-02\style\style.sass:176
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/static_parser.rb:21:in `parse_selector'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:528:in `visit_media'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"and \": expected selector, was \"(min-device-wid...\"\A         on line 176 of C:\Users\harpr\OneDrive\Desktop\CodeFactory\CodeReview\CFLMS-HarpritSumon-CodeReview-02\style\style.sass\A \A 171: \A 172: //hier beginnt media querie\A 173: \A 174: \A 175: @media screen \A 176: 	and (min-device-width: 1200px)\A 177: 	and (max-device-width: 1600px)\A 178: 	and (-webkit-min-device-pixel-ratio: 1){\A 179: 	\A 180: }"; }
